@@ -1,0 +1,24 @@
+DrawIOCoreJob - 2024-04-18_22_58_51 - Starting Draw.IO Job
+DrawIOCoreJob - 2024-04-18_22_58_51 - Running Local
+DrawIOCoreJob - 2024-04-18_22_58_51 - Calling Draw.IO Thread
+DrawIOCoreFile - 2024-04-18_22_58_52 - Starting Draw.IO file
+DrawIOCoreFile - 2024-04-18_22_58_52 - Setting XML files to be clean
+DrawIOCoreFile - 2024-04-18_22_58_52 - Cleaning old files
+DrawIOCoreFile - 2024-04-18_22_58_52 - Starting Organization Function
+DrawIOCoreFile - 2024-04-18_22_58_52 - Starting Network Topology Function
+DrawIONetwork - 2024-04-18_22_58_52 - Starting Network Diagram Job...
+DrawIOCoreFile - 2024-04-18_22_58_52 - Starting Subscription Function
+DrawIOCoreFile - 2024-04-18_22_58_52 - Waiting for Jobs to complete
+DrawIONetwork - 2024-04-18_22_58_53 - Setting Subnet files
+DrawIONetwork - 2024-04-18_22_58_53 - Calling Variables0 Function
+DrawIONetwork - 2024-04-18_22_58_53 - Waiting Variables Job to complete
+DrawIONetwork - 2024-04-18_22_58_55 - Setting Variables
+DrawIONetwork - 2024-04-18_22_58_55 - Defining XML file
+DrawIONetwork - 2024-04-18_22_58_55 - Calling Stensils
+DrawIONetwork - 2024-04-18_22_58_55 - Calling CloudOnly Function
+DrawIONetwork - 2024-04-18_22_58_55 - Waiting Job2 to complete
+DrawIONetwork - 2024-04-18_22_58_55 - Processing Subnet files
+DrawIONetwork - 2024-04-18_22_58_56 - End of Network Diagram
+DrawIOCoreFile - 2024-04-18_22_58_56 - Starting to process files
+DrawIOCoreFile - 2024-04-18_22_58_56 - Cleaning old jobs
+DrawIOCoreJob - 2024-04-18_22_58_56 - Draw.IO Ended.

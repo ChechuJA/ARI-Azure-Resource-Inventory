@@ -1,0 +1,612 @@
+<?xml version="1.0"?>
+<mxfile host="Electron" modified="2021-10-01T21:45:40.561Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/15.4.0 Chrome/91.0.4472.164 Electron/13.5.0 Safari/537.36" etag="DahTZzvbsAVntHxLkqdQ" version="15.4.0" type="device">
+  <mxfile host="Electron" modified="2021-10-01T21:45:40.561Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/15.4.0 Chrome/91.0.4472.164 Electron/13.5.0 Safari/537.36" etag="FUPtBaEYMhLmGOwIQbeD" version="15.4.0" type="device">
+    <mxfile host="Electron" modified="2021-10-01T21:45:40.561Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/15.4.0 Chrome/91.0.4472.164 Electron/13.5.0 Safari/537.36" etag="SAQaUbOxhspqLBtZTWCE" version="15.4.0" type="device">
+      <diagram id="SJYtNjKXFdmbseDPLhOU" name="Network Topology">
+        <mxGraphModel dx="1326" dy="798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+          <root>
+            <mxCell id="0" />
+            <mxCell id="1" parent="0" />
+            <object label="azravdevlzvmvnet00&#xA;10.0.0.0/16&#xA;" DDOS_Protection="False" id="CWaZMIqmNFwGskyhOTPz-0">
+              <mxCell style="aspect=fixed;html=1;points=[];align=center;image;fontSize=18;image=img/lib/azure2/networking/Virtual_Networks.svg;" vertex="1" parent="1">
+                <mxGeometry x="600" y="2" width="65" height="39" as="geometry" />
+              </mxCell>
+            </object>
+            <mxCell id="TBAqtsQDpwLNXjgKSMEF-1" value="azravdevlzvmvnet00" style="swimlane;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;swimlaneFillColor=#D5E8D4;rounded=1;" vertex="1" parent="1">
+              <mxGeometry x="700" y="-13" width="240" height="260" as="geometry" />
+            </mxCell>
+            <object label="Visual Studio Enterprise û MPN" id="CWaZMIqmNFwGskyhOTPz-1">
+              <mxCell style="aspect=fixed;html=1;points=[];align=center;image;fontSize=20;image=img/lib/azure2/general/Subscriptions.svg;" vertex="1" parent="TBAqtsQDpwLNXjgKSMEF-1">
+                <mxGeometry x="240" y="225" width="67" height="40" as="geometry" />
+              </mxCell>
+            </object>
+            <object label="test&#xA;10.2.0.0/26&#xA;" DDOS_Protection="False" id="CWaZMIqmNFwGskyhOTPz-2">
+              <mxCell style="aspect=fixed;html=1;points=[];align=center;image;fontSize=18;image=img/lib/azure2/networking/Virtual_Networks.svg;" vertex="1" parent="1">
+                <mxGeometry x="600" y="352" width="65" height="39" as="geometry" />
+              </mxCell>
+            </object>
+            <mxCell id="TPIwMynqjsgKeHXdfhEm-1" value="test" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;swimlaneFillColor=#DAE8FC;" vertex="1" parent="1">
+              <mxGeometry x="700" y="337" width="450" height="260" as="geometry" />
+            </mxCell>
+            <object label="Visual Studio Enterprise û MPN" id="CWaZMIqmNFwGskyhOTPz-3">
+              <mxCell style="aspect=fixed;html=1;points=[];align=center;image;fontSize=20;image=img/lib/azure2/general/Subscriptions.svg;" vertex="1" parent="TPIwMynqjsgKeHXdfhEm-1">
+                <mxGeometry x="450" y="225" width="67" height="40" as="geometry" />
+              </mxCell>
+            </object>
+            <object label="rg_automations-vnet&#xA;10.1.0.0/16&#xA;" DDOS_Protection="False" id="CWaZMIqmNFwGskyhOTPz-4">
+              <mxCell style="aspect=fixed;html=1;points=[];align=center;image;fontSize=18;image=img/lib/azure2/networking/Virtual_Networks.svg;" vertex="1" parent="1">
+                <mxGeometry x="600" y="702" width="65" height="39" as="geometry" />
+              </mxCell>
+            </object>
+            <mxCell id="FIKDoBxSaMRdlbJZcLtj-1" value="rg_automations-vnet" style="swimlane;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;swimlaneFillColor=#D5E8D4;rounded=1;" vertex="1" parent="1">
+              <mxGeometry x="700" y="687" width="240" height="260" as="geometry" />
+            </mxCell>
+            <object label="Visual Studio Enterprise û MPN" id="CWaZMIqmNFwGskyhOTPz-5">
+              <mxCell style="aspect=fixed;html=1;points=[];align=center;image;fontSize=20;image=img/lib/azure2/general/Subscriptions.svg;" vertex="1" parent="FIKDoBxSaMRdlbJZcLtj-1">
+                <mxGeometry x="240" y="225" width="67" height="40" as="geometry" />
+              </mxCell>
+            </object>
+            <object label="azfwvnet&#xA;10.0.0.0/25&#xA;" DDOS_Protection="False" id="CWaZMIqmNFwGskyhOTPz-6">
+              <mxCell style="aspect=fixed;html=1;points=[];align=center;image;fontSize=18;image=img/lib/azure2/networking/Virtual_Networks.svg;" vertex="1" parent="1">
+                <mxGeometry x="600" y="1052" width="65" height="39" as="geometry" />
+              </mxCell>
+            </object>
+            <mxCell id="VGseRfUQXjuTlMkcFmyh-1" value="azfwvnet" style="swimlane;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;swimlaneFillColor=#D5E8D4;rounded=1;" vertex="1" parent="1">
+              <mxGeometry x="700" y="1037" width="450" height="260" as="geometry" />
+            </mxCell>
+            <object label="Visual Studio Enterprise û MPN" id="CWaZMIqmNFwGskyhOTPz-7">
+              <mxCell style="aspect=fixed;html=1;points=[];align=center;image;fontSize=20;image=img/lib/azure2/general/Subscriptions.svg;" vertex="1" parent="VGseRfUQXjuTlMkcFmyh-1">
+                <mxGeometry x="450" y="225" width="67" height="40" as="geometry" />
+              </mxCell>
+            </object>
+            <object label="az140-adds-vnet11&#xA;10.0.0.0/16&#xA;" Custom_DNS_Servers="10.0.0.4" DDOS_Protection="False" id="CWaZMIqmNFwGskyhOTPz-8">
+              <mxCell style="aspect=fixed;html=1;points=[];align=center;image;fontSize=18;image=img/lib/azure2/networking/Virtual_Networks.svg;" vertex="1" parent="1">
+                <mxGeometry x="600" y="1402" width="65" height="39" as="geometry" />
+              </mxCell>
+            </object>
+            <mxCell id="JDhQikfyKuNAXsLBnaTR-1" value="az140-adds-vnet11" style="swimlane;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;swimlaneFillColor=#D5E8D4;rounded=1;" vertex="1" parent="1">
+              <mxGeometry x="700" y="1382" width="660" height="490" as="geometry" />
+            </mxCell>
+            <object label="Visual Studio Enterprise û MPN" id="CWaZMIqmNFwGskyhOTPz-9">
+              <mxCell style="aspect=fixed;html=1;points=[];align=center;image;fontSize=20;image=img/lib/azure2/general/Subscriptions.svg;" vertex="1" parent="JDhQikfyKuNAXsLBnaTR-1">
+                <mxGeometry x="660" y="460" width="67" height="40" as="geometry" />
+              </mxCell>
+            </object>
+            <object label="az140-25-vnet&#xA;10.25.0.0/16&#xA;" DDOS_Protection="False" id="CWaZMIqmNFwGskyhOTPz-10">
+              <mxCell style="aspect=fixed;html=1;points=[];align=center;image;fontSize=18;image=img/lib/azure2/networking/Virtual_Networks.svg;" vertex="1" parent="1">
+                <mxGeometry x="600" y="2052" width="65" height="39" as="geometry" />
+              </mxCell>
+            </object>
+            <mxCell id="XDayVeFpTjhkMWszqcvH-1" value="az140-25-vnet" style="swimlane;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;swimlaneFillColor=#D5E8D4;rounded=1;" vertex="1" parent="1">
+              <mxGeometry x="700" y="2037" width="450" height="260" as="geometry" />
+            </mxCell>
+            <object label="Visual Studio Enterprise û MPN" id="CWaZMIqmNFwGskyhOTPz-11">
+              <mxCell style="aspect=fixed;html=1;points=[];align=center;image;fontSize=20;image=img/lib/azure2/general/Subscriptions.svg;" vertex="1" parent="XDayVeFpTjhkMWszqcvH-1">
+                <mxGeometry x="450" y="225" width="67" height="40" as="geometry" />
+              </mxCell>
+            </object>
+            <object label="" id="CWaZMIqmNFwGskyhOTPz-12">
+              <mxCell style="rounded=0;whiteSpace=wrap;fontSize=16;html=1;sketch=0;fontFamily=Helvetica;" vertex="1" parent="1">
+                <mxGeometry x="-520" y="-100" width="500" height="2502" as="geometry" />
+              </mxCell>
+            </object>
+            <object label="Cloud Only&#xA;Environment" id="CWaZMIqmNFwGskyhOTPz-13">
+              <mxCell style="aspect=fixed;html=1;points=[];align=center;image;fontSize=56;image=img/lib/azure2/compute/Cloud_Services_Classic.svg;" vertex="1" parent="1">
+                <mxGeometry x="-460" y="1251" width="380" height="275" as="geometry" />
+              </mxCell>
+            </object>
+            <object label="Powered by:&#xA;Azure Resource Inventory v3.0&#xA;https://github.com/microsoft/ARI" author="Claudio Merola" id="CWaZMIqmNFwGskyhOTPz-14">
+              <mxCell style="aspect=fixed;html=1;points=[];align=left;image;fontSize=22;image=img/lib/azure2/general/Dev_Console.svg;" vertex="1" parent="1">
+                <mxGeometry x="-520" y="2502" width="27.5" height="22" as="geometry" />
+              </mxCell>
+            </object>
+            <object label="&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;default&#xA;10.1.0.0/24" id="DWEyIlwcpMHQtGxoRXNC-7">
+              <mxCell style="rounded=0;whiteSpace=wrap;fontSize=16;html=1;sketch=0;fontFamily=Helvetica;" vertex="1" parent="FIKDoBxSaMRdlbJZcLtj-1">
+                <mxGeometry x="20" y="40" width="200" height="200" as="geometry" />
+              </mxCell>
+            </object>
+            <object label="&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;sbn1&#xA;10.2.0.0/27" id="UDvMxQesFlrqHPfdRSKN-5">
+              <mxCell style="rounded=0;whiteSpace=wrap;fontSize=16;html=1;sketch=0;fontFamily=Helvetica;" vertex="1" parent="TPIwMynqjsgKeHXdfhEm-1">
+                <mxGeometry x="20" y="40" width="200" height="200" as="geometry" />
+              </mxCell>
+            </object>
+            <object label="&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;gatewaysubnet&#xA;10.2.0.32/28" id="UDvMxQesFlrqHPfdRSKN-6">
+              <mxCell style="rounded=0;whiteSpace=wrap;fontSize=16;html=1;sketch=0;fontFamily=Helvetica;" vertex="1" parent="TPIwMynqjsgKeHXdfhEm-1">
+                <mxGeometry x="230" y="40" width="200" height="200" as="geometry" />
+              </mxCell>
+            </object>
+            <object label="&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;adds-subnet&#xA;10.0.0.0/24" id="UTuKPVrLWJBpibtHMDld-11">
+              <mxCell style="rounded=0;whiteSpace=wrap;fontSize=16;html=1;sketch=0;fontFamily=Helvetica;" vertex="1" parent="JDhQikfyKuNAXsLBnaTR-1">
+                <mxGeometry x="20" y="40" width="200" height="200" as="geometry" />
+              </mxCell>
+            </object>
+            <object label="az140-dc-vm11" VM_Size="standard_d2s_v3" OS="windows" OS_Disk_Size_GB="" Image_Publisher="microsoftwindowsserver" Image_SKU="2019-datacenter" id="UTuKPVrLWJBpibtHMDld-12">
+              <mxCell style="aspect=fixed;html=1;points=[];align=center;image;fontSize=14;image=img/lib/azure2/compute/Virtual_Machine.svg;" vertex="1" parent="JDhQikfyKuNAXsLBnaTR-1">
+                <mxGeometry x="84" y="80" width="69" height="64" as="geometry" />
+              </mxCell>
+            </object>
+            <object label="&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;cl-subnet&#xA;10.0.255.0/24" id="UTuKPVrLWJBpibtHMDld-13">
+              <mxCell style="rounded=0;whiteSpace=wrap;fontSize=16;html=1;sketch=0;fontFamily=Helvetica;" vertex="1" parent="JDhQikfyKuNAXsLBnaTR-1">
+                <mxGeometry x="230" y="40" width="200" height="200" as="geometry" />
+              </mxCell>
+            </object>
+            <object label="az140-cl-vm42" VM_Size="standard_d2s_v3" OS="windows" OS_Disk_Size_GB="" Image_Publisher="microsoftwindowsdesktop" Image_SKU="20h2-pro" id="UTuKPVrLWJBpibtHMDld-14">
+              <mxCell style="aspect=fixed;html=1;points=[];align=center;image;fontSize=14;image=img/lib/azure2/compute/Virtual_Machine.svg;" vertex="1" parent="JDhQikfyKuNAXsLBnaTR-1">
+                <mxGeometry x="294" y="80" width="69" height="64" as="geometry" />
+              </mxCell>
+            </object>
+            <object label="&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;hp1-subnet&#xA;10.0.1.0/24" id="UTuKPVrLWJBpibtHMDld-15">
+              <mxCell style="rounded=0;whiteSpace=wrap;fontSize=16;html=1;sketch=0;fontFamily=Helvetica;" vertex="1" parent="JDhQikfyKuNAXsLBnaTR-1">
+                <mxGeometry x="440" y="40" width="200" height="200" as="geometry" />
+              </mxCell>
+            </object>
+            <object label="&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;hp2-subnet&#xA;10.0.2.0/24" id="UTuKPVrLWJBpibtHMDld-16">
+              <mxCell style="rounded=0;whiteSpace=wrap;fontSize=16;html=1;sketch=0;fontFamily=Helvetica;" vertex="1" parent="JDhQikfyKuNAXsLBnaTR-1">
+                <mxGeometry x="20" y="270" width="200" height="200" as="geometry" />
+              </mxCell>
+            </object>
+            <object label="&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;hp4-subnet&#xA;10.0.4.0/24" id="UTuKPVrLWJBpibtHMDld-17">
+              <mxCell style="rounded=0;whiteSpace=wrap;fontSize=16;html=1;sketch=0;fontFamily=Helvetica;" vertex="1" parent="JDhQikfyKuNAXsLBnaTR-1">
+                <mxGeometry x="230" y="270" width="200" height="200" as="geometry" />
+              </mxCell>
+            </object>
+            <object label="1 Network Interface" NIC-Name="" id="UTuKPVrLWJBpibtHMDld-18">
+              <mxCell style="aspect=fixed;html=1;points=[];align=center;image;fontSize=14;image=img/lib/azure2/networking/Network_Interfaces.svg;" vertex="1" parent="JDhQikfyKuNAXsLBnaTR-1">
+                <mxGeometry x="295" y="310" width="68" height="60" as="geometry" />
+              </mxCell>
+            </object>
+            <object label="&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;azurebastionsubnet&#xA;10.0.254.0/24" id="UTuKPVrLWJBpibtHMDld-19">
+              <mxCell style="rounded=0;whiteSpace=wrap;fontSize=16;html=1;sketch=0;fontFamily=Helvetica;" vertex="1" parent="JDhQikfyKuNAXsLBnaTR-1">
+                <mxGeometry x="440" y="270" width="200" height="200" as="geometry" />
+              </mxCell>
+            </object>
+            <object label="&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;azravdevlzvmsbnet00&#xA;10.0.2.0/24" id="vApsJPrwVfokaiguOXSQ-3">
+              <mxCell style="rounded=0;whiteSpace=wrap;fontSize=16;html=1;sketch=0;fontFamily=Helvetica;" vertex="1" parent="TBAqtsQDpwLNXjgKSMEF-1">
+                <mxGeometry x="20" y="40" width="200" height="200" as="geometry" />
+              </mxCell>
+            </object>
+            <object label="1 Network Interface" NIC-Name="" id="vApsJPrwVfokaiguOXSQ-4">
+              <mxCell style="aspect=fixed;html=1;points=[];align=center;image;fontSize=14;image=img/lib/azure2/networking/Network_Interfaces.svg;" vertex="1" parent="TBAqtsQDpwLNXjgKSMEF-1">
+                <mxGeometry x="85" y="80" width="68" height="60" as="geometry" />
+              </mxCell>
+            </object>
+            <object label="&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;subnet0&#xA;10.25.0.0/24" id="vOWVHwxaCiSdZoryzALg-13">
+              <mxCell style="rounded=0;whiteSpace=wrap;fontSize=16;html=1;sketch=0;fontFamily=Helvetica;" vertex="1" parent="XDayVeFpTjhkMWszqcvH-1">
+                <mxGeometry x="20" y="40" width="200" height="200" as="geometry" />
+              </mxCell>
+            </object>
+            <object label="az140-25-vm0" VM_Size="standard_d2s_v3" OS="windows" OS_Disk_Size_GB="" Image_Publisher="microsoftwindowsdesktop" Image_SKU="20h2-evd-o365pp-g2" id="vOWVHwxaCiSdZoryzALg-14">
+              <mxCell style="aspect=fixed;html=1;points=[];align=center;image;fontSize=14;image=img/lib/azure2/compute/Virtual_Machine.svg;" vertex="1" parent="XDayVeFpTjhkMWszqcvH-1">
+                <mxGeometry x="84" y="80" width="69" height="64" as="geometry" />
+              </mxCell>
+            </object>
+            <object label="&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;azurebastionsubnet&#xA;10.25.254.0/24" id="vOWVHwxaCiSdZoryzALg-15">
+              <mxCell style="rounded=0;whiteSpace=wrap;fontSize=16;html=1;sketch=0;fontFamily=Helvetica;" vertex="1" parent="XDayVeFpTjhkMWszqcvH-1">
+                <mxGeometry x="230" y="40" width="200" height="200" as="geometry" />
+              </mxCell>
+            </object>
+            <object label="&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;azurefirewallsubnet&#xA;10.0.0.0/26" id="XpyBitQlYFZzIEsbSjxe-9">
+              <mxCell style="rounded=0;whiteSpace=wrap;fontSize=16;html=1;sketch=0;fontFamily=Helvetica;" vertex="1" parent="VGseRfUQXjuTlMkcFmyh-1">
+                <mxGeometry x="20" y="40" width="200" height="200" as="geometry" />
+              </mxCell>
+            </object>
+            <object label="&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;jmpprviatelinkservice&#xA;10.0.0.64/28" id="XpyBitQlYFZzIEsbSjxe-10">
+              <mxCell style="rounded=0;whiteSpace=wrap;fontSize=16;html=1;sketch=0;fontFamily=Helvetica;" vertex="1" parent="VGseRfUQXjuTlMkcFmyh-1">
+                <mxGeometry x="230" y="40" width="200" height="200" as="geometry" />
+              </mxCell>
+            </object>
+            <object label="3 Private Endpoints" PVE-001-Name="jmp-pe-linkservices" PVE-002-Name="pe-alias-privatelinkservices" PVE-003-Name="pe-jmp-linkservice-rbac" id="XpyBitQlYFZzIEsbSjxe-11">
+              <mxCell style="aspect=fixed;html=1;points=[];align=center;image;fontSize=14;image=img/lib/azure2/networking/Private_Endpoint.svg;" vertex="1" parent="VGseRfUQXjuTlMkcFmyh-1">
+                <mxGeometry x="295" y="80" width="72" height="66" as="geometry" />
+              </mxCell>
+            </object>
+          </root>
+        </mxGraphModel>
+      </diagram>
+    </mxfile>
+    <diagram id="ghDaxblPcRHOqQkJCjGo" name="Organization">
+      <mxGraphModel dx="1326" dy="798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <root>
+          <mxCell id="0" />
+          <mxCell id="1" parent="0" />
+          <mxCell id="vNWkwTnYsMSRhloCgIfO-1" value="tenant root group" style="swimlane;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;swimlaneFillColor=#F5F5F5;rounded=1;" vertex="1" parent="1">
+            <mxGeometry x="0" y="0" width="200" height="150" as="geometry" />
+          </mxCell>
+          <object label="" ManagementGroup="tenant root group" id="smZwxfPXirhCApezFlKQ-0">
+            <mxCell style="aspect=fixed;html=1;points=[];align=center;image;fontSize=20;image=img/lib/azure2/general/Management_Groups.svg;" vertex="1" parent="vNWkwTnYsMSRhloCgIfO-1">
+              <mxGeometry x="-30" y="135" width="50" height="50" as="geometry" />
+            </mxCell>
+          </object>
+          <object label="visual studio enterprise û mpn" id="-0">
+            <mxCell style="rounded=1;whiteSpace=wrap;fontSize=16;html=1;sketch=0;fontFamily=Helvetica;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="vNWkwTnYsMSRhloCgIfO-1">
+              <mxGeometry x="25" y="50" width="150" height="70" as="geometry" />
+            </mxCell>
+          </object>
+          <object label="" ResourceGroup_1="azr-av-dev-lzspk-terra-rsg-00" ResourceGroup_2="azr-av-dev-lzspk-vm-rsg-01" ResourceGroup_3="azr-cs-pre-lzspk-gid-rgp-06" ResourceGroup_4="defaultresourcegroup-weu" ResourceGroup_5="networkwatcherrg" ResourceGroup_6="rg_automations" ResourceGroup_7="rgtfstate" ResourceGroup_8="sant-avan" ResourceGroup_9="siemens-b2c" ResourceGroup_10="tr-devops" ResourceGroup_11="az140-11-rg" ResourceGroup_12="az140-25-rg" ResourceGroup_13="az140-42-rg" ResourceGroup_14="cloud-shell-storage-westeurope" ResourceGroup_15="resource-graph-queries" ResourceGroup_16="rg-testazurepolicy" id="smZwxfPXirhCApezFlKQ-1">
+            <mxCell style="aspect=fixed;html=1;points=[];align=center;image;fontSize=20;image=img/lib/azure2/general/Subscriptions.svg;" vertex="1" parent="vNWkwTnYsMSRhloCgIfO-1">
+              <mxGeometry x="165" y="90" width="31" height="51" as="geometry" />
+            </mxCell>
+          </object>
+        </root>
+      </mxGraphModel>
+    </diagram>
+  </mxfile>
+  <diagram id="CUbHWhkBftFMvcaoVxLG" name="Visual Studio Enterprise û MPN">
+    <mxGraphModel dx="1326" dy="798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <object label="" id="TfsPFvMzctDCNeOQYUrW-0">
+          <mxCell style="rounded=0;whiteSpace=wrap;fontSize=16;html=1;sketch=0;fontFamily=Helvetica;" vertex="1" parent="1">
+            <mxGeometry x="100" y="100" width="2060" height="1320" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="Visual Studio Enterprise û MPN" id="OmNQIdCLnwlXBPzWEvgt-0">
+          <mxCell style="aspect=fixed;html=1;points=[];align=center;image;fontSize=20;image=img/lib/azure2/general/Subscriptions.svg;" vertex="1" parent="1">
+            <mxGeometry x="30" y="1400" width="67" height="40" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="" id="TfsPFvMzctDCNeOQYUrW-1">
+          <mxCell style="rounded=1;whiteSpace=wrap;fontSize=16;html=1;sketch=0;fontFamily=Helvetica;" vertex="1" parent="1">
+            <mxGeometry x="140" y="140" width="960" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="rg_automations" id="OmNQIdCLnwlXBPzWEvgt-1">
+          <mxCell style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/ResourceGroup.svg;" vertex="1" parent="1">
+            <mxGeometry x="120" y="240" width="37.5" height="30" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="2 Automation&#xA;Account" id="OmNQIdCLnwlXBPzWEvgt-2">
+          <mxCell style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=14;image=img/lib/azure2/management_governance/Automation_Accounts.svg;" vertex="1" parent="1">
+            <mxGeometry x="200" y="165" width="40" height="40" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="1 B2C&#xA;Directories" id="OmNQIdCLnwlXBPzWEvgt-3">
+          <mxCell style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=14;image=img/lib/azure2/identity/Azure_AD_B2C.svg;" vertex="1" parent="1">
+            <mxGeometry x="310" y="165" width="49" height="45" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="1 Network&#xA;Security Group" id="OmNQIdCLnwlXBPzWEvgt-4">
+          <mxCell style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=14;image=img/lib/azure2/networking/Network_Security_Groups.svg;" vertex="1" parent="1">
+            <mxGeometry x="420" y="165" width="37" height="46" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="1 Virtual&#xA;Network" id="OmNQIdCLnwlXBPzWEvgt-5">
+          <mxCell style="aspect=fixed;html=1;points=[];align=center;image;fontSize=14;image=img/lib/azure2/networking/Virtual_Networks.svg;" vertex="1" parent="1">
+            <mxGeometry x="530" y="165" width="62" height="42" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="" id="TfsPFvMzctDCNeOQYUrW-2">
+          <mxCell style="rounded=1;whiteSpace=wrap;fontSize=16;html=1;sketch=0;fontFamily=Helvetica;" vertex="1" parent="1">
+            <mxGeometry x="1140" y="140" width="960" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="az140-25-rg" id="OmNQIdCLnwlXBPzWEvgt-6">
+          <mxCell style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/ResourceGroup.svg;" vertex="1" parent="1">
+            <mxGeometry x="2080" y="240" width="37.5" height="30" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="2 Network&#xA;Interface" id="OmNQIdCLnwlXBPzWEvgt-7">
+          <mxCell style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=14;image=img/lib/azure2/networking/Network_Interfaces.svg;" vertex="1" parent="1">
+            <mxGeometry x="1200" y="165" width="50" height="42" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="2 Network&#xA;Security Group" id="OmNQIdCLnwlXBPzWEvgt-8">
+          <mxCell style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=14;image=img/lib/azure2/networking/Network_Security_Groups.svg;" vertex="1" parent="1">
+            <mxGeometry x="1310" y="165" width="37" height="46" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="2 Public IPs" id="OmNQIdCLnwlXBPzWEvgt-9">
+          <mxCell style="aspect=fixed;html=1;points=[];align=center;image;fontSize=14;image=img/lib/azure2/networking/Public_IP_Addresses.svg;" vertex="1" parent="1">
+            <mxGeometry x="1420" y="165" width="51" height="42" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="1 Disk" id="OmNQIdCLnwlXBPzWEvgt-10">
+          <mxCell style="image;aspect=fixed;html=1;points=[];align=center;fontSize=14;image=img/lib/azure2/compute/Disks.svg;" vertex="1" parent="1">
+            <mxGeometry x="1530" y="165" width="40.72" height="40" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="1 Virtual&#xA;Machine" id="OmNQIdCLnwlXBPzWEvgt-11">
+          <mxCell style="aspect=fixed;html=1;points=[];align=center;image;fontSize=14;image=img/lib/azure2/compute/Virtual_Machine.svg;" vertex="1" parent="1">
+            <mxGeometry x="1640" y="165" width="43" height="40" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="1 AVD&#xA;Host Pool" id="OmNQIdCLnwlXBPzWEvgt-12">
+          <mxCell style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=14;image=img/lib/azure2/other/Windows_Virtual_Desktop.svg;" vertex="1" parent="1">
+            <mxGeometry x="1750" y="165" width="51" height="51" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="1 Virtual&#xA;Network" id="OmNQIdCLnwlXBPzWEvgt-13">
+          <mxCell style="aspect=fixed;html=1;points=[];align=center;image;fontSize=14;image=img/lib/azure2/networking/Virtual_Networks.svg;" vertex="1" parent="1">
+            <mxGeometry x="1860" y="165" width="62" height="42" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="" id="TfsPFvMzctDCNeOQYUrW-3">
+          <mxCell style="rounded=1;whiteSpace=wrap;fontSize=16;html=1;sketch=0;fontFamily=Helvetica;" vertex="1" parent="1">
+            <mxGeometry x="140" y="300" width="960" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="az140-11-rg" id="OmNQIdCLnwlXBPzWEvgt-14">
+          <mxCell style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/ResourceGroup.svg;" vertex="1" parent="1">
+            <mxGeometry x="120" y="400" width="37.5" height="30" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="2 Disk" id="OmNQIdCLnwlXBPzWEvgt-15">
+          <mxCell style="image;aspect=fixed;html=1;points=[];align=center;fontSize=14;image=img/lib/azure2/compute/Disks.svg;" vertex="1" parent="1">
+            <mxGeometry x="200" y="325" width="40.72" height="40" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="2 Public IPs" id="OmNQIdCLnwlXBPzWEvgt-16">
+          <mxCell style="aspect=fixed;html=1;points=[];align=center;image;fontSize=14;image=img/lib/azure2/networking/Public_IP_Addresses.svg;" vertex="1" parent="1">
+            <mxGeometry x="310" y="325" width="51" height="42" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="1 Availability&#xA;Set" id="OmNQIdCLnwlXBPzWEvgt-17">
+          <mxCell style="image;aspect=fixed;html=1;points=[];align=center;fontSize=14;image=img/lib/azure2/compute/Availability_Sets.svg;" vertex="1" parent="1">
+            <mxGeometry x="420" y="325" width="43.5" height="43.5" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="1 Virtual&#xA;Machine" id="OmNQIdCLnwlXBPzWEvgt-18">
+          <mxCell style="aspect=fixed;html=1;points=[];align=center;image;fontSize=14;image=img/lib/azure2/compute/Virtual_Machine.svg;" vertex="1" parent="1">
+            <mxGeometry x="530" y="325" width="43" height="40" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="1 Network&#xA;Interface" id="OmNQIdCLnwlXBPzWEvgt-19">
+          <mxCell style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=14;image=img/lib/azure2/networking/Network_Interfaces.svg;" vertex="1" parent="1">
+            <mxGeometry x="640" y="325" width="50" height="42" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="1 Network&#xA;Security Group" id="OmNQIdCLnwlXBPzWEvgt-20">
+          <mxCell style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=14;image=img/lib/azure2/networking/Network_Security_Groups.svg;" vertex="1" parent="1">
+            <mxGeometry x="750" y="325" width="37" height="46" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="1 Virtual&#xA;Network" id="OmNQIdCLnwlXBPzWEvgt-21">
+          <mxCell style="aspect=fixed;html=1;points=[];align=center;image;fontSize=14;image=img/lib/azure2/networking/Virtual_Networks.svg;" vertex="1" parent="1">
+            <mxGeometry x="860" y="325" width="62" height="42" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="" id="TfsPFvMzctDCNeOQYUrW-4">
+          <mxCell style="rounded=1;whiteSpace=wrap;fontSize=16;html=1;sketch=0;fontFamily=Helvetica;" vertex="1" parent="1">
+            <mxGeometry x="1140" y="300" width="960" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="sant-avan" id="OmNQIdCLnwlXBPzWEvgt-22">
+          <mxCell style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/ResourceGroup.svg;" vertex="1" parent="1">
+            <mxGeometry x="2080" y="400" width="37.5" height="30" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="3 Network&#xA;Interface" id="OmNQIdCLnwlXBPzWEvgt-23">
+          <mxCell style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=14;image=img/lib/azure2/networking/Network_Interfaces.svg;" vertex="1" parent="1">
+            <mxGeometry x="1200" y="325" width="50" height="42" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="3 Private&#xA;Endpoint" id="OmNQIdCLnwlXBPzWEvgt-24">
+          <mxCell style="aspect=fixed;html=1;points=[];align=center;image;fontSize=14;image=img/lib/azure2/networking/Private_Endpoint.svg;" vertex="1" parent="1">
+            <mxGeometry x="1310" y="325" width="44" height="40" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="1 Virtual&#xA;Network" id="OmNQIdCLnwlXBPzWEvgt-25">
+          <mxCell style="aspect=fixed;html=1;points=[];align=center;image;fontSize=14;image=img/lib/azure2/networking/Virtual_Networks.svg;" vertex="1" parent="1">
+            <mxGeometry x="1420" y="325" width="62" height="42" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="" id="TfsPFvMzctDCNeOQYUrW-5">
+          <mxCell style="rounded=1;whiteSpace=wrap;fontSize=16;html=1;sketch=0;fontFamily=Helvetica;" vertex="1" parent="1">
+            <mxGeometry x="140" y="460" width="960" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="az140-42-rg" id="OmNQIdCLnwlXBPzWEvgt-26">
+          <mxCell style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/ResourceGroup.svg;" vertex="1" parent="1">
+            <mxGeometry x="120" y="560" width="37.5" height="30" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="1 Disk" id="OmNQIdCLnwlXBPzWEvgt-27">
+          <mxCell style="image;aspect=fixed;html=1;points=[];align=center;fontSize=14;image=img/lib/azure2/compute/Disks.svg;" vertex="1" parent="1">
+            <mxGeometry x="200" y="485" width="40.72" height="40" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="1 Virtual&#xA;Machine" id="OmNQIdCLnwlXBPzWEvgt-28">
+          <mxCell style="aspect=fixed;html=1;points=[];align=center;image;fontSize=14;image=img/lib/azure2/compute/Virtual_Machine.svg;" vertex="1" parent="1">
+            <mxGeometry x="310" y="485" width="43" height="40" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="1 Network&#xA;Interface" id="OmNQIdCLnwlXBPzWEvgt-29">
+          <mxCell style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=14;image=img/lib/azure2/networking/Network_Interfaces.svg;" vertex="1" parent="1">
+            <mxGeometry x="420" y="485" width="50" height="42" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="1 Recovery&#xA;Services Vault" id="OmNQIdCLnwlXBPzWEvgt-30">
+          <mxCell style="image;aspect=fixed;html=1;points=[];align=center;fontSize=14;image=img/lib/azure2/management_governance/Recovery_Services_Vaults.svg;" vertex="1" parent="1">
+            <mxGeometry x="530" y="485" width="43.5" height="38" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="1 Storage&#xA;Account" id="OmNQIdCLnwlXBPzWEvgt-31">
+          <mxCell style="image;aspect=fixed;html=1;points=[];align=center;fontSize=14;image=img/lib/azure2/storage/Storage_Accounts.svg;" vertex="1" parent="1">
+            <mxGeometry x="640" y="485" width="49.94" height="40" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="" id="TfsPFvMzctDCNeOQYUrW-6">
+          <mxCell style="rounded=1;whiteSpace=wrap;fontSize=16;html=1;sketch=0;fontFamily=Helvetica;" vertex="1" parent="1">
+            <mxGeometry x="1140" y="460" width="960" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="siemens-b2c" id="OmNQIdCLnwlXBPzWEvgt-32">
+          <mxCell style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/ResourceGroup.svg;" vertex="1" parent="1">
+            <mxGeometry x="2080" y="560" width="37.5" height="30" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="1 Smart Detector&#xA;Alert Rule" id="OmNQIdCLnwlXBPzWEvgt-33">
+          <mxCell style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=14;image=img/lib/mscae/Notification.svg;" vertex="1" parent="1">
+            <mxGeometry x="1200" y="485" width="48" height="48" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="1 B2C&#xA;Directories" id="OmNQIdCLnwlXBPzWEvgt-34">
+          <mxCell style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=14;image=img/lib/azure2/identity/Azure_AD_B2C.svg;" vertex="1" parent="1">
+            <mxGeometry x="1310" y="485" width="49" height="45" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="1 App&#xA;Insights" id="OmNQIdCLnwlXBPzWEvgt-35">
+          <mxCell style="image;aspect=fixed;html=1;points=[];align=center;fontSize=14;image=img/lib/azure2/devops/Application_Insights.svg;" vertex="1" parent="1">
+            <mxGeometry x="1420" y="485" width="50" height="42" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="1 App&#xA;Service Plan" id="OmNQIdCLnwlXBPzWEvgt-36">
+          <mxCell style="image;aspect=fixed;html=1;points=[];align=center;fontSize=14;image=img/lib/azure2/app_services/App_Service_Plans.svg;" vertex="1" parent="1">
+            <mxGeometry x="1530" y="485" width="43.5" height="43.5" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="1 Web App" id="OmNQIdCLnwlXBPzWEvgt-37">
+          <mxCell style="aspect=fixed;html=1;points=[];align=center;image;fontSize=14;image=img/lib/azure2/containers/App_Services.svg;" vertex="1" parent="1">
+            <mxGeometry x="1640" y="485" width="45" height="45" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="" id="TfsPFvMzctDCNeOQYUrW-7">
+          <mxCell style="rounded=1;whiteSpace=wrap;fontSize=16;html=1;sketch=0;fontFamily=Helvetica;" vertex="1" parent="1">
+            <mxGeometry x="140" y="620" width="960" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="azr-av-dev-lzspk-vm-rsg-01" id="OmNQIdCLnwlXBPzWEvgt-38">
+          <mxCell style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/ResourceGroup.svg;" vertex="1" parent="1">
+            <mxGeometry x="120" y="720" width="37.5" height="30" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="2 Virtual&#xA;Network" id="OmNQIdCLnwlXBPzWEvgt-39">
+          <mxCell style="aspect=fixed;html=1;points=[];align=center;image;fontSize=14;image=img/lib/azure2/networking/Virtual_Networks.svg;" vertex="1" parent="1">
+            <mxGeometry x="200" y="645" width="62" height="42" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="1 Network&#xA;Interface" id="OmNQIdCLnwlXBPzWEvgt-40">
+          <mxCell style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=14;image=img/lib/azure2/networking/Network_Interfaces.svg;" vertex="1" parent="1">
+            <mxGeometry x="310" y="645" width="50" height="42" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="" id="TfsPFvMzctDCNeOQYUrW-8">
+          <mxCell style="rounded=1;whiteSpace=wrap;fontSize=16;html=1;sketch=0;fontFamily=Helvetica;" vertex="1" parent="1">
+            <mxGeometry x="1140" y="620" width="960" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="networkwatcherrg" id="OmNQIdCLnwlXBPzWEvgt-41">
+          <mxCell style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/ResourceGroup.svg;" vertex="1" parent="1">
+            <mxGeometry x="2080" y="720" width="37.5" height="30" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="2 Network&#xA;Watcher" id="OmNQIdCLnwlXBPzWEvgt-42">
+          <mxCell style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=14;image=img/lib/azure2/networking/Network_Watcher.svg;" vertex="1" parent="1">
+            <mxGeometry x="1200" y="645" width="44" height="44" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="" id="TfsPFvMzctDCNeOQYUrW-9">
+          <mxCell style="rounded=1;whiteSpace=wrap;fontSize=16;html=1;sketch=0;fontFamily=Helvetica;" vertex="1" parent="1">
+            <mxGeometry x="140" y="780" width="960" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="azr-av-dev-lzspk-terra-rsg-00" id="OmNQIdCLnwlXBPzWEvgt-43">
+          <mxCell style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/ResourceGroup.svg;" vertex="1" parent="1">
+            <mxGeometry x="120" y="880" width="37.5" height="30" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="1 Storage&#xA;Account" id="OmNQIdCLnwlXBPzWEvgt-44">
+          <mxCell style="image;aspect=fixed;html=1;points=[];align=center;fontSize=14;image=img/lib/azure2/storage/Storage_Accounts.svg;" vertex="1" parent="1">
+            <mxGeometry x="200" y="805" width="49.94" height="40" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="" id="TfsPFvMzctDCNeOQYUrW-10">
+          <mxCell style="rounded=1;whiteSpace=wrap;fontSize=16;html=1;sketch=0;fontFamily=Helvetica;" vertex="1" parent="1">
+            <mxGeometry x="1140" y="780" width="960" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="azr-cs-pre-lzspk-gid-rgp-06" id="OmNQIdCLnwlXBPzWEvgt-45">
+          <mxCell style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/ResourceGroup.svg;" vertex="1" parent="1">
+            <mxGeometry x="2080" y="880" width="37.5" height="30" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="1 Recovery&#xA;Services Vault" id="OmNQIdCLnwlXBPzWEvgt-46">
+          <mxCell style="image;aspect=fixed;html=1;points=[];align=center;fontSize=14;image=img/lib/azure2/management_governance/Recovery_Services_Vaults.svg;" vertex="1" parent="1">
+            <mxGeometry x="1200" y="805" width="43.5" height="38" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="" id="TfsPFvMzctDCNeOQYUrW-11">
+          <mxCell style="rounded=1;whiteSpace=wrap;fontSize=16;html=1;sketch=0;fontFamily=Helvetica;" vertex="1" parent="1">
+            <mxGeometry x="140" y="940" width="960" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="cloud-shell-storage-westeurope" id="OmNQIdCLnwlXBPzWEvgt-47">
+          <mxCell style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/ResourceGroup.svg;" vertex="1" parent="1">
+            <mxGeometry x="120" y="1040" width="37.5" height="30" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="1 Storage&#xA;Account" id="OmNQIdCLnwlXBPzWEvgt-48">
+          <mxCell style="image;aspect=fixed;html=1;points=[];align=center;fontSize=14;image=img/lib/azure2/storage/Storage_Accounts.svg;" vertex="1" parent="1">
+            <mxGeometry x="200" y="965" width="49.94" height="40" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="" id="TfsPFvMzctDCNeOQYUrW-12">
+          <mxCell style="rounded=1;whiteSpace=wrap;fontSize=16;html=1;sketch=0;fontFamily=Helvetica;" vertex="1" parent="1">
+            <mxGeometry x="1140" y="940" width="960" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="defaultresourcegroup-weu" id="OmNQIdCLnwlXBPzWEvgt-49">
+          <mxCell style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/ResourceGroup.svg;" vertex="1" parent="1">
+            <mxGeometry x="2080" y="1040" width="37.5" height="30" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="1 Log&#xA;Analytics" id="OmNQIdCLnwlXBPzWEvgt-50">
+          <mxCell style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=14;image=img/lib/mscae/Log_Analytics_Workspaces.svg;" vertex="1" parent="1">
+            <mxGeometry x="1200" y="965" width="40" height="40" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="" id="TfsPFvMzctDCNeOQYUrW-13">
+          <mxCell style="rounded=1;whiteSpace=wrap;fontSize=16;html=1;sketch=0;fontFamily=Helvetica;" vertex="1" parent="1">
+            <mxGeometry x="140" y="1100" width="960" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="resource-graph-queries" id="OmNQIdCLnwlXBPzWEvgt-51">
+          <mxCell style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/ResourceGroup.svg;" vertex="1" parent="1">
+            <mxGeometry x="120" y="1200" width="37.5" height="30" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="" id="TfsPFvMzctDCNeOQYUrW-14">
+          <mxCell style="rounded=1;whiteSpace=wrap;fontSize=16;html=1;sketch=0;fontFamily=Helvetica;" vertex="1" parent="1">
+            <mxGeometry x="1140" y="1100" width="960" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="rg-testazurepolicy" id="OmNQIdCLnwlXBPzWEvgt-52">
+          <mxCell style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/ResourceGroup.svg;" vertex="1" parent="1">
+            <mxGeometry x="2080" y="1200" width="37.5" height="30" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="1 Key&#xA;Vault" id="OmNQIdCLnwlXBPzWEvgt-53">
+          <mxCell style="image;aspect=fixed;html=1;points=[];align=center;fontSize=14;image=img/lib/azure2/security/Key_Vaults.svg;" vertex="1" parent="1">
+            <mxGeometry x="1200" y="1125" width="40" height="40" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="" id="TfsPFvMzctDCNeOQYUrW-15">
+          <mxCell style="rounded=1;whiteSpace=wrap;fontSize=16;html=1;sketch=0;fontFamily=Helvetica;" vertex="1" parent="1">
+            <mxGeometry x="140" y="1260" width="960" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="rgtfstate" id="OmNQIdCLnwlXBPzWEvgt-54">
+          <mxCell style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/ResourceGroup.svg;" vertex="1" parent="1">
+            <mxGeometry x="120" y="1360" width="37.5" height="30" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="1 Storage&#xA;Account" id="OmNQIdCLnwlXBPzWEvgt-55">
+          <mxCell style="image;aspect=fixed;html=1;points=[];align=center;fontSize=14;image=img/lib/azure2/storage/Storage_Accounts.svg;" vertex="1" parent="1">
+            <mxGeometry x="200" y="1285" width="49.94" height="40" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="" id="TfsPFvMzctDCNeOQYUrW-16">
+          <mxCell style="rounded=1;whiteSpace=wrap;fontSize=16;html=1;sketch=0;fontFamily=Helvetica;" vertex="1" parent="1">
+            <mxGeometry x="1140" y="1260" width="960" height="120" as="geometry" />
+          </mxCell>
+        </object>
+        <object label="tr-devops" id="OmNQIdCLnwlXBPzWEvgt-56">
+          <mxCell style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/ResourceGroup.svg;" vertex="1" parent="1">
+            <mxGeometry x="2080" y="1360" width="37.5" height="30" as="geometry" />
+          </mxCell>
+        </object>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
